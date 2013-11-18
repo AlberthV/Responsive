@@ -1,0 +1,50 @@
+*{margin:0;}
+
+article
+{
+	float:left;
+	width: 50%;
+}
+body
+{
+	background: #c3e5f9;
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+	text-shadow:1px 1px 0 black; 
+}
+
+section
+{
+	padding: 10px 0;
+	background: #12a890;
+	margin: 10px auto;
+	width: 1024px;
+	overflow: hidden;
+}
+
+
+.fila1
+{
+	background: #830f2a;
+}
+.fila2
+{
+	background: #1c4583;
+}
+
+@media screen and (max-width:1024px){
+	section{
+		width: 100%;
+	}
+}
+@media screen and (max-width:700px){
+	article{
+		width: 100%;
+	}
+}
+@media screen and (max-width:480px){
+	body{
+		font-size:20px;
+	}
+}
