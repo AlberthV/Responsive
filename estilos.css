@@ -3,7 +3,8 @@
 article
 {
 	float:left;
-	width: 50%;
+	width: 46%;
+	padding: 2%;
 }
 body
 {
@@ -13,7 +14,24 @@ body
 	font-family: arial;
 	text-shadow:1px 1px 0 black; 
 }
-
+nav
+{
+	text-align: center;
+	padding: 10px 0;
+	background: #873698;
+	width: 50%;
+	margin:10px auto;
+}
+nav ul li
+{
+	display: inline-block;
+	text-decoration: none;
+	margin: 5px 15px;
+}
+nav ul
+{
+	margin: center;
+}
 section
 {
 	padding: 10px 0;
@@ -34,17 +52,31 @@ section
 }
 
 @media screen and (max-width:1024px){
+	body{
+		font-size:18px;
+	}
 	section{
-		width: 100%;
+		width: 96%;
+		padding: 2%;
 	}
 }
 @media screen and (max-width:700px){
 	article{
-		width: 100%;
+		padding: 2%;
+		width: 96%;
 	}
 }
 @media screen and (max-width:480px){
+	article{
+		padding: 2%;
+		width: 96%
+	}
 	body{
 		font-size:20px;
+	}
+	nav{
+		padding-left: 0px;
+		text-align: center;
+		display: block;
 	}
 }
